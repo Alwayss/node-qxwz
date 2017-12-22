@@ -1,1 +1,0 @@
-cmd_Debug/obj.target/qxwz.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=qxwz.node -o Debug/obj.target/qxwz.node -Wl,--start-group Debug/obj.target/qxwz/lib/qxwz.o -Wl,--end-group -lrtcm -L/./lib
