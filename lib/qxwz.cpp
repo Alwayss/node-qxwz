@@ -77,7 +77,7 @@ namespace qxwz {
 	    qxwz_rtcm_sendGGAWithGGAString(*ggastring);
 	}
 
-	void stop(){
+	void stop(const FunctionCallbackInfo<Value>& args){
 	    //关闭rtcm sdk
 	    printf("qxwz_rtcm_stop here\r\n");
 	    //sleep(1);
